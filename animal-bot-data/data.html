@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>ประวัติการนัดหมาย</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>ประวัติการนัดหมาย</h1>
+						<p></p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+
+						
+							
+								<!-- Table -->
+									<section>
+										
+										
+										<h4>ใส่ชื่อ-นามสกุลที่ต้องการค้นหา</h4>
+										<form id="searchForm">
+											<div class="row gtr-uniform">
+												<div class="col-4 col-12-xsmall">
+													<input type="text" id="myInput1" name="search" value="" placeholder="ชื่อ-นามสกุล" />
+											       <br>
+													<button type="button" id="myInput"  onclick="myFunction()"  class="primary" >
+												  		ค้นหา<!-- <i class="fa fa-search"></i> -->
+													</button>
+											  </div>
+											</div>
+											<br>
+											<!-- <p id="demo"></p>
+											<p id="search"></p> -->
+										</form>
+										<form>  
+										 <div class="table-wrapper">
+											<table class="alt" id="tbresult">
+												<thead>
+													<tr>
+														<th>ชื่อ-นามสกุล</th>
+														<th>ชื่อคลินิก</th>
+														<th>นัดหมาย</th>
+														<th>บันทึกอื่นๆ</th>
+														<th>วัน/เดือน/ปี</th>
+														<th>เวลา</th>
+													  </tr>
+												</thead>
+											</table>		
+										</form>
+									</section>
+								</section>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+					
+					</footer>
+
+			</div>
+			<!-- Include jQuery -->
+			<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+
+			<!-- Include Date Range Picker -->
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+			<!-- The core Firebase JS SDK is always required and must be listed first -->
+			<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+
+			<!-- TODO: Add SDKs for Firebase products that you want to use
+     		https://firebase.google.com/docs/web/setup#available-libraries -->
+			<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+
+			<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+			<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+
+	  <script>
+  			// Your web app's Firebase configuration
+  			// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+ 		var firebaseConfig = {
+   		apiKey: "AIzaSyAyOMLx_qKAUnjpkUIxhRQz8ebbetuJQ0Q",
+   		authDomain: "cat-dog-bot-qxxm.firebaseapp.com",
+   		databaseURL: "https://cat-dog-bot-qxxm.firebaseio.com",
+  		projectId: "cat-dog-bot-qxxm",
+   		storageBucket: "cat-dog-bot-qxxm.appspot.com",
+   		messagingSenderId: "613072209022",
+   		appId: "1:613072209022:web:7cac89cf0ec7e2b788842f",
+   		measurementId: "G-TXLMEX3Q4T"
+ 		};
+ 		// Initialize Firebase
+ 		firebase.initializeApp(firebaseConfig);
+ 		firebase.analytics();
+		</script>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/app.js"></script>
+	</body>
+</html>
